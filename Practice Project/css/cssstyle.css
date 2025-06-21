@@ -3,12 +3,42 @@ html {
 }
 
 body {
+    background-color: lemonchiffon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     min-height: 100vh;
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
+}
+
+nav {
+    border: 1.5px solid black;
+    margin: auto;
+    border-radius: 1.5rem;
+    padding: 1rem auto;
+    max-width: 200px;
+    line-height: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+}
+
+li a,
+li a:visited {
+    text-decoration: none;
+}
+
+li a:hover,
+li a:hover {
+    background: black;
+    color: whitesmoke;
 }
 
 th,
