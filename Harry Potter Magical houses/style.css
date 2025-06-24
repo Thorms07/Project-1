@@ -1,0 +1,39 @@
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Are You Serious", cursive;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+form {
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+form input {
+    border: 2px solid midnightblue;
+    height: 30px;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+form input:focus {
+    outline: none;
+    border: 2px solid darkslategray;
+}
