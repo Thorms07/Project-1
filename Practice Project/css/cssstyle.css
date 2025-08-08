@@ -14,7 +14,7 @@ body {
 }
 
 nav {
-    border: 1.5px solid black;
+    border: 1.5px dashed black;
     margin: auto;
     border-radius: 1.5rem;
     padding: 1rem auto;
