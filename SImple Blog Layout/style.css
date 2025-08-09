@@ -1,0 +1,33 @@
+/* || Reset */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.35rem;
+    background-color: #f4f4f4;
+    padding: 0 10px;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+    background: #0077b6;
+    color: whitesmoke;
+}
+
+main {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px auto;
+    max-width: 800px;
+}
