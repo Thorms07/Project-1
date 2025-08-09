@@ -24,10 +24,87 @@ header {
     color: whitesmoke;
 }
 
+.transit {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 15px;
+    border-bottom: 2px solid #eee;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+    transition: all 0.8s ease-in-out;
+}
+
 main {
     background: white;
     padding: 10px;
     border-radius: 8px;
     margin: 10px auto;
     max-width: 800px;
+}
+
+/* || Article */
+article {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(50);
+    }
+}
+
+article header h2 {
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+article header p {
+    font-size: 0.9em;
+    color: #333;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+header h2:hover {
+    color: burlywood;
+    transition: color 0.3s ease-in-out;
+}
+
+section h3 {
+    margin-top: 20px;
+    color: #03045e;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    padding: 5px 0;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #0077b6;
+}
+
+section ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.86em;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: #0077b6;
+    color: whitesmoke;
 }
